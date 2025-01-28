@@ -1,0 +1,37 @@
+bash
+# Node.js and npm files
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Next.js files
+frontend/.next/
+frontend/node_modules/
+frontend/package-lock.json
+
+# React.js files
+admin/.gitignore
+admin/node_modules/
+admin/yarn.lock
+
+# Express.js files
+backend/node_modules/
+backend/package-lock.json
+
+# General files
+.DS_Store
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+coverage/
+build/
+dist/
+tmp/
+log/
+
+
+This .gitignore file ignores the following:
+
+- node_modules
